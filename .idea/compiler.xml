@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eurekaProvider" />
+        <module name="eurekaProvider01" />
+        <module name="eurekaProvider02" />
+        <module name="eurekaServer" />
+        <module name="hystrixConsumer" />
+        <module name="ribbonConsumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="c-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="c-config" options="-parameters" />
+      <module name="eurekaProvider" options="-parameters" />
+      <module name="eurekaProvider01" options="-parameters" />
+      <module name="eurekaProvider02" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
+      <module name="hystrixConsumer" options="-parameters" />
+      <module name="myCloud" options="" />
+      <module name="ribbonConsumer" options="-parameters" />
+    </option>
+  </component>
+</project>
