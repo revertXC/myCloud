@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/eurekaProvider01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaProvider02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feignConsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hystrixConsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ribbonConsumer" charset="UTF-8" />
   </component>

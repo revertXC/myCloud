@@ -10,6 +10,7 @@
         <module name="eurekaProvider01" />
         <module name="eurekaProvider02" />
         <module name="eurekaServer" />
+        <module name="feignConsumer" />
         <module name="hystrixConsumer" />
         <module name="ribbonConsumer" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="eurekaProvider01" options="-parameters" />
       <module name="eurekaProvider02" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
+      <module name="feignConsumer" options="-parameters" />
       <module name="hystrixConsumer" options="-parameters" />
       <module name="myCloud" options="" />
       <module name="ribbonConsumer" options="-parameters" />

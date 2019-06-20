@@ -1,5 +1,7 @@
 package com.revert.hystrixConsumer.common.config;
 
+import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,5 +19,6 @@ public class RibbonConfig {
     public RestTemplate restTemplate(){
         return  new RestTemplate();
     }
+
 
 }

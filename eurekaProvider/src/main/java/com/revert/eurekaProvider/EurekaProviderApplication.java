@@ -25,7 +25,7 @@ public class EurekaProviderApplication {
     String port;
 
     @RequestMapping("/hi")
-    public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
+    public String home(@RequestParam(value = "name", defaultValue = "xiecong") String name) {
         return "hi " + name + " ,i am from port:" + port;
     }
 

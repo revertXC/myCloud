@@ -14,6 +14,7 @@
     <module>eurekaProvider02</module>
     <module>ribbonConsumer</module>
     <module>hystrixConsumer</module>
+      <module>feignConsumer</module>
   </modules>
 
   <packaging>pom</packaging>
